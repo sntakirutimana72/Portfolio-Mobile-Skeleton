@@ -12,21 +12,11 @@ hiring employers and other interested parties may get to know me better.
 - HTML & CSS
 
 
-## Getting Started
+## Screenshots
 
-To get a local copy up and running follow these simple example steps.
+### Main Page
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+![](./static/images/app_screenshot.png)
 
 
 
