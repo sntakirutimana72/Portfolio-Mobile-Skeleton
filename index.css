@@ -116,10 +116,6 @@ li {
   height: 18px;
 }
 
-.socio-hub:nth-child(2) > img {
-  color: grey;
-}
-
 /* cursor behavior */
 
 .nav-bar-item:hover,
