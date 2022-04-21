@@ -1,41 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Portfolio: Mobile Skeleton</title>
+        <link rel="stylesheet" href="index.css">
     </head>
 
     <body>
-        <header>
-            <nav class="nav-bar">
-                <div class="nav-bar-item">
-                    <a href="#" title="logo">Steven Portfolio Logo</a>
-                </div>
-                <div class="nav-bar-item">
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#lets-connect">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="nav-bar-item">
-                    <img src="" title="Menu Options" alt="Menu" width="25px" height="25px">
-                </div>
-            </nav>
-        </header>
+        <main id="main-layout">
+            <header class="flex-item">
+                <nav class="nav-bar">
+                    <div class="nav-bar-item">
+                        <a href="#" title="logo">Portfolio Skeleton</a>
+                    </div>
+                    <div class="nav-bar-item">
+                        <img src="./static/images/hamburger-menu-icon.png" title="Menu Options" alt="Menu" width="30" height="30">
+                    </div>
+                </nav>
+            </header>
 
-    <main id="main-layout">
-        <section id="cont-preview">
-        <header id="cont-header">
-            STEVEN NTAKIRUTIMANA
-        </header>
-        <div class="cont-desc">
-            I have been a Software Developer for 5 years now, working with leading tech companies in developing
-            cutting-edge technologies like ...
-        </div>
-        </section>
+            <section class="cont-preview flex-item">
+                <div>
+                    <header class="cont-header">
+                        <span>Hello there! I'm Steven.</span>
+                        <span>Software Developer</span>
+                    </header>
+                    <div class="cont-desc">
+                        I have been a Software Developer for 5 years now, working with leading tech companies in developing
+                        cutting-edge technologies. I'm great at customizing websites as well, creating suitable APIs that swiften
+                        and render testing and debugging easy.
+                        If you're looking to hire a software developer, well, I'm your guy.
+                    </div>
+                    <hr>
+                </div>
+            </section>
 
-        <section id="linkup-preview"></section>
-    </main>
-
+            <section class="flex-item">
+                <div class="skill-set">
+                    <div>
+                        <label>Languages</label>
+                        <ul>
+                            <li>English <span class="skill-level">Advanced</span></li>
+                            <li>French <span class="skill-level">Intermediate</span></li>
+                            <li>Kinyarwanda <span class="skill-level">Native</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <label>Frameworks</label>
+                        <ul>
+                            <li>Node.JS</li>
+                            <li>Angular</li>
+                            <li>Django</li>
+                            <li>Kivy</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <label>Other Skills</label>
+                        <ul>
+                            <li>Terminal (Shell)</li>
+                            <li>Github</li>
+                            <li>Heroku</li>
+                            <li>Postman</li>
+                            <li>PivotTracker</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
