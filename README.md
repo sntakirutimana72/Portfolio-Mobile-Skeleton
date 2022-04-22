@@ -2,7 +2,7 @@
 
 # Portfolio-Mobile-Skeleton
 
-> This project is mirror version of my portfolio webpage describing my technical,
+> This project is a mirror version of my portfolio webpage describing my technical,
 social, and other skills and give out a peak into my qualities and personalities so that 
 hiring employers and other interested parties may get to know me better.
 
@@ -12,21 +12,11 @@ hiring employers and other interested parties may get to know me better.
 - HTML & CSS
 
 
-## Getting Started
+## Screenshots
 
-To get a local copy up and running follow these simple example steps.
+### Main Page
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+![](./static/images/app_screenshot.png)
 
 
 
